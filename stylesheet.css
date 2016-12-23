@@ -1,0 +1,53 @@
+*{
+	font-family: 'Baloo Thambi', cursive;
+}
+
+
+.button{
+	margin: auto;
+	text-align: center;
+	width: 10em;
+	height: 5em;
+	background-color: red;
+	border-radius: 10px;
+}
+
+.button h1{
+	padding-top: 5px;
+}
+
+.spacer{
+	margin: auto;
+	height: 5em;
+}
+
+#placeholder {
+	float: left;
+	margin: auto;
+	width: 100%;
+}
+
+#placeholder2 {
+	position: relative;
+}
+
+.card {
+	position: absolute;
+	margin: auto;
+	height: 20em;
+	width: 15em;
+	padding: 1em;
+}
+
+.back{
+	z-index: 9999;
+	background: url("http://chetart.com/blog/wp-content/uploads/2012/05/playing-card-back.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.front{
+	background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ace_of_spades.svg/2000px-Ace_of_spades.svg.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
