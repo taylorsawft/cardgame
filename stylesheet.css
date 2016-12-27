@@ -35,6 +35,8 @@ h3{
 .spacer{
 	text-align: center;
 	height: 5em;
+	float: right;
+	padding-right: 10em;
 }
 
 .card {

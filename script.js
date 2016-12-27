@@ -140,5 +140,19 @@ $(document).ready(function(){
     };
     $('.card').toggleClass('back', 10000, 'swing');
     cardFace();
+
+    var war = function(){
+      $(".user").hide();
+      $(".computer").hide();
+      $("#war").append('<div class="row">'+ '<div class ="col-sm-2">'+ '<div class="card back"></div>' +
+      '</div>'+'<div class ="col-sm-2">'+ '<div class="card back"></div>' + '</div>'+
+        '<div class ="col-sm-2">'+ '<div class="card back"></div>' + '</div>'+
+        '<div class ="col-sm-2">'+ '<div class="card back"></div>' + '</div>'+
+        '<div class ="col-sm-2">'+ '<div class="card back"></div>' + '</div>'+
+        '<div class ="col-sm-2">'+ '<div class="card back"></div>' + '</div>'+
+      '</div>');
+    }
+
+    war();
 })
 });
