@@ -73,7 +73,7 @@ $(document).ready(function(){
       else if(cardNumber2 > cardNumber1){
         return("User wins!");}
       else{
-      return("A draw...");}}
+      return("A draw...");}};
 
     var winner = draw();
 

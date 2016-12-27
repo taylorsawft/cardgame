@@ -32,27 +32,8 @@ h3{
 	width: 10em;
 }
 
-.button{
-	margin: auto;
-	text-align: center;
-	width: 20em;
-	height: 3em;
-	background-color: slategrey;
-	border-radius: 10px;
-	font-size: 200%;
-}
-
-.button:hover {
-	background-color: grey;
-}
-
-.button:active {
-	position: relative;
-	top: 4px;
-}
-
 .spacer{
-	margin: auto;
+	text-align: center;
 	height: 5em;
 }
 
@@ -65,18 +46,17 @@ h3{
 }
 
 .back{
-	z-index: 9998;
-	background: url("http://chetart.com/blog/wp-content/uploads/2012/05/playing-card-back.jpg");
+	z-index: 9999;
+	background: url("http://www.jimknapp.com/Cards/Bicycle_files/image186.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 /*default*/
 .default{
-	background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Ace_of_spades.svg/2000px-Ace_of_spades.svg.png");
+	background: url("https://upload.wikimedia.org/wikipedia/commons/2/25/Playing_card_spade_A.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 /*card faces*/
@@ -84,82 +64,70 @@ h3{
   background: url("https://upload.wikimedia.org/wikipedia/commons/f/f2/Playing_card_spade_2.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-size: 243px 354px;
 }
 
 .three{
 	background: url("https://upload.wikimedia.org/wikipedia/commons/5/52/Playing_card_spade_3.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .four{
 	background: url("https://upload.wikimedia.org/wikipedia/commons/2/2c/Playing_card_spade_4.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .five{
 	background: url("https://upload.wikimedia.org/wikipedia/commons/9/94/Playing_card_spade_5.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .six{
 	background: url("https://upload.wikimedia.org/wikipedia/commons/d/d2/Playing_card_spade_6.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .seven{
 	background: url("https://upload.wikimedia.org/wikipedia/commons/6/66/Playing_card_spade_7.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .eight{
 	background: url("https://upload.wikimedia.org/wikipedia/commons/2/21/Playing_card_spade_8.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .nine {
 	background: url("https://upload.wikimedia.org/wikipedia/commons/e/e0/Playing_card_spade_9.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .ten {
 	background: url("https://upload.wikimedia.org/wikipedia/commons/8/87/Playing_card_spade_10.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .jack{
 	background: url("https://upload.wikimedia.org/wikipedia/commons/b/bd/Playing_card_spade_J.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .queen{
 	background: url("https://upload.wikimedia.org/wikipedia/commons/5/51/Playing_card_spade_Q.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
 
 .king{
 	background: url("https://upload.wikimedia.org/wikipedia/commons/9/9f/Playing_card_spade_K.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 243px 354px;
 }
